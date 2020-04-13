@@ -4,21 +4,20 @@
 	
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>io.github.mariazevedo88</groupId>
-	<artifactId>o3smeasures-admin</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
-	<name>o3smeasures-admin</name>
+	<artifactId>o3smeasures-admin-server</artifactId>
+	<version>1.0.1-SNAPSHOT</version>
+	<name>o3smeasures-admin-server</name>
 	<description>Spring Boot Admin server for o3smeasures web app</description>
 	
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.2.4.RELEASE</version>
+		<version>2.2.6.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
 	<properties>
 		<java.version>11</java.version>
-		<maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
 	</properties>
 
 	<dependencies>
